@@ -1,0 +1,21 @@
+diff -urN aaa/Trashcan/AppRun Trashcan/AppRun
+--- aaa/Trashcan/AppRun	Fri Mar  9 01:49:18 2001
++++ Trashcan/AppRun	Sun Jul  7 23:43:21 2002
+@@ -33,7 +33,7 @@
+ # Config section
+ 
+ # Pick the one you like, or make your own.
+-$Trashcan="$ENV{HOME}/.trashcan";
++$Trashcan="$ENV{HOME}/tmp/.trashcan";
+ #$Trashcan="$AppDir/Trashcan";
+ 
+ # How to run rox-filer
+@@ -177,7 +177,7 @@
+ # Create the trashcan directory if it doesn't exist.
+ sub check_trashdir {
+   unless (-d $Trashcan) {
+-    mkdir $Trashcan, 0755
++    mkpath ($Trashcan, 0, 0755)
+       or die "Could not create trashcan dir ($Trashcan): $!\n";
+   }
+ }
