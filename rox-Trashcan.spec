@@ -8,6 +8,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.cerias.purdue.edu/homes/zamboni/files/rox/%{_name}.tar.gz
+# Source0-md5:	64eff7e8f83f48d195dc431e5db5f8f4
 Patch0:		%{name}-use-tmpdir.patch
 URL:		http://www.cerias.purdue.edu/homes/zamboni/rox/
 BuildRequires:	rpm-perlprov
