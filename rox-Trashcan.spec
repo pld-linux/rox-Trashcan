@@ -1,7 +1,6 @@
 %include /usr/lib/rpm/macros.perl
 %define _appsdir /usr/X11R6/share/ROX-apps
 %define _name Trashcan
-%define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Trashcan application for ROX-Filer
 Summary(pl):	Kosz na ¶mieci dla ROX-Filera
 Name:		rox-%{_name}
