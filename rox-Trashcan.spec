@@ -16,8 +16,6 @@ Requires:	perl-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 %define   _appsdir  %{_libdir}/ROX-apps
 
 %description
