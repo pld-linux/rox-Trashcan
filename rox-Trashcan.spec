@@ -1,11 +1,10 @@
 %include /usr/lib/rpm/macros.perl
-%define _appsdir /usr/X11R6/share/ROX-apps
 %define _name Trashcan
 Summary:	Trashcan application for ROX-Filer
 Summary(pl):	Kosz na ¶mieci dla ROX-Filera
 Name:		rox-%{_name}
 Version:	20020408
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.cerias.purdue.edu/homes/zamboni/files/rox/%{_name}.tar.gz
@@ -19,6 +18,7 @@ BuildArch:	noarch
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
+%define   _appsdir  %{_libdir}/ROX-apps
 
 %description
 A trashcan application for ROX-Filer, originally inspired by
