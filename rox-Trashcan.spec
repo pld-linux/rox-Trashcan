@@ -1,7 +1,7 @@
 %include /usr/lib/rpm/macros.perl
 %define _name Trashcan
 Summary:	Trashcan application for ROX-Filer
-Summary(pl.UTF-8):   Kosz na śmieci dla ROX-Filera
+Summary(pl.UTF-8):	Kosz na śmieci dla ROX-Filera
 Name:		rox-%{_name}
 Version:	20020408
 Release:	2
