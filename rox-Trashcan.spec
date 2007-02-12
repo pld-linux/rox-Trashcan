@@ -1,7 +1,7 @@
 %include /usr/lib/rpm/macros.perl
 %define _name Trashcan
 Summary:	Trashcan application for ROX-Filer
-Summary(pl):	Kosz na ¶mieci dla ROX-Filera
+Summary(pl.UTF-8):   Kosz na Å›mieci dla ROX-Filera
 Name:		rox-%{_name}
 Version:	20020408
 Release:	2
@@ -24,9 +24,9 @@ A trashcan application for ROX-Filer, originally inspired by
 dfm-trashcan.tcl, but rewritten in Perl and now with very different
 functionality, and specifically tailored for ROX-Filer.
 
-%description -l pl
-Kosz na ¶mieci dla ROX-Filera, zainspirowany przez dfm-trashcan.tcl,
-ale przepisany w Perlu. Teraz posiada on ca³kiem inn± funkcjonalno¶æ i
+%description -l pl.UTF-8
+Kosz na Å›mieci dla ROX-Filera, zainspirowany przez dfm-trashcan.tcl,
+ale przepisany w Perlu. Teraz posiada on caÅ‚kiem innÄ… funkcjonalnoÅ›Ä‡ i
 jest dopasowany do ROX-Filera.
 
 %prep
